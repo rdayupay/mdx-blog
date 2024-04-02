@@ -12,14 +12,8 @@ async function Home() {
     <div className={styles.wrapper}>
       <h1 className={styles.mainHeading}>Latest Content:</h1>
 
-      {blogPosts.map(({ slug, title, abstract, publishedOn }) => (
-        <BlogSummaryCard
-          key={slug}
-          slug={slug}
-          title={title}
-          abstract={abstract}
-          publishedOn={publishedOn}
-        />
+      {blogPosts.map(({ slug, ...delegated }) => (
+        <BlogSummaryCard key={slug} slug={slug} {...delegated} />
       ))}
     </div>
   );
