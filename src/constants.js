@@ -1,4 +1,6 @@
 export const BLOG_TITLE = 'Bits & Bytes';
+export const BLOG_DESCRIPTION =
+  'Discover JavaScript easily through our dedicated blog, designed to help you understand and learn.';
 export const COLOR_THEME_COOKIE_NAME = 'color-theme';
 
 export const LIGHT_COLORS = {

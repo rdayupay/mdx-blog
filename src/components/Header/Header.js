@@ -40,7 +40,11 @@ function Header({ initialTheme, className, ...delegated }) {
       <Logo />
 
       <div className={styles.actions}>
-        <button className={styles.action}>
+        {/*
+          Turn the <button> into an <a>, so we can link
+          to the new `/rss.xml` route.
+        */}
+        <a href="/rss.xml" className={styles.action}>
           <Rss
             size="1.5rem"
             style={{
@@ -49,7 +53,7 @@ function Header({ initialTheme, className, ...delegated }) {
             }}
           />
           <VisuallyHidden>View RSS feed</VisuallyHidden>
-        </button>
+        </a>
         <button className={styles.action} onClick={handleToggleTheme}>
           {theme === 'light' ? <Sun size="1.5rem" /> : <Moon size="1.5rem" />}
           <VisuallyHidden>Toggle dark / light mode</VisuallyHidden>
