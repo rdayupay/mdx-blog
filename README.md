@@ -2,7 +2,9 @@
 
 # Overview
 
-This project is an interactive MDX-based blog using Next.js 14 (App Router):
+This project is an interactive MDX-based blog using Next.js 14 (App Router).
+
+You can view the live site [here](https://mdx-blog-rdayupay.vercel.app/).
 
 ![Screenshot of the final product](/docs/end-result.png)
 
@@ -35,7 +37,7 @@ npm run dev
 
 ## Features Implemented
 
-### 1. Homepage List of Posts
+## 1. Homepage List of Posts
 
 - Implemented a reverse-chronological list of blog posts on the homepage.
 - Utilized a helper function to gather the list of blog posts.
@@ -44,7 +46,7 @@ npm run dev
 
 ---
 
-### 2: Displaying MDX
+## 2: Displaying MDX
 
 - Rendered MDX content for each blog post dynamically.
 - Used next-mdx-remote to handle MDX rendering.
@@ -53,7 +55,7 @@ npm run dev
 
 ---
 
-### 3: Adding metadata
+## 3: Adding metadata
 
 - Added metadata to the homepage and blog post pages for improved SEO.
 - Leveraged Next.js Metadata API to specify site metadata.
