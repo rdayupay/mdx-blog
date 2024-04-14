@@ -15,13 +15,10 @@ You can view the live site [here](https://mdx-blog-rdayupay.vercel.app/).
 - MDX: Used for writing and rendering Markdown documents with embedded JSX components.
 - Framer Motion: Used for implementing animations throughout the application.
 - Bright: Used for syntax highlighting in code snippets.
+- gray-matter: A library for parsing frontmatter from markdown files.
 - js-cookie: A simple, lightweight JavaScript API for handling cookies.
 - rss: A library for generating RSS feeds.
-- clsx: A utility for constructing className strings conditionally in JSX.
-- date-fns: A library for manipulating JavaScript dates in a functional way.
-- eslint: A tool for identifying and reporting on patterns found in ECMAScript/- JavaScript code.
-- eslint-config-next: Official ESLint configuration for Next.js projects.
-- gray-matter: A library for parsing frontmatter from markdown files.
+- ESLint
 
 ## Getting Started
 
@@ -40,7 +37,6 @@ npm run dev
 ## 1. Homepage List of Posts
 
 - Implemented a reverse-chronological list of blog posts on the homepage.
-- Utilized a helper function to gather the list of blog posts.
 
 ![Screenshot showing the homepage with a reverse-chronological list of blog posts](/docs/homepage-list-of-posts.png)
 
@@ -58,7 +54,6 @@ npm run dev
 ## 3: Adding metadata
 
 - Added metadata to the homepage and blog post pages for improved SEO.
-- Leveraged Next.js Metadata API to specify site metadata.
 
 ```html
 <title>Bits & Bytes</title>
